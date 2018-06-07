@@ -1,0 +1,16 @@
+[
+  {
+    "model": "quiz.WritingSystem",
+    "pk": 1,
+    "fields":{
+      "name": "hiragana"
+    }
+  },
+  {
+    "model": "quiz.WritingSystem",
+    "pk": 2,
+    "fields":{
+      "name": "katakana"
+    }
+  }
+]

@@ -16,6 +16,7 @@ class CharacterOccurrence(models.Model):
 
 class Word(models.Model):
     english_translation = models.CharField(max_length=200)
+    learned = models.BooleanField(default=False)
 
 class Font(models.Model):
     name = models.CharField(max_length=50)

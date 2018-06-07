@@ -1,0 +1,75 @@
+[
+  {
+    "model": "quiz.font",
+    "pk": 1,
+    "fields":{
+      "name": "Noto Sans JP",
+      "source": "https://fonts.googleapis.com/earlyaccess/notosansjp.css"
+    }
+  },
+  {
+    "model": "quiz.font",
+    "pk": 2,
+    "fields":{
+      "name": "Mplus 1p",
+      "source": "https://fonts.googleapis.com/earlyaccess/mplus1p.css"
+    }
+  },
+  {
+    "model": "quiz.font",
+    "pk": 3,
+    "fields":{
+      "name": "Rounded Mplus 1c",
+      "source": "https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css"
+    }
+  },
+  {
+    "model": "quiz.font",
+    "pk": 3,
+    "fields":{
+      "name": "Hannari",
+      "source":"https://fonts.googleapis.com/earlyaccess/hannari.css"
+    }
+  },
+  {
+    "model": "quiz.font",
+    "pk": 4,
+    "fields":{
+      "name": "Kokoro",
+      "source": "https://fonts.googleapis.com/earlyaccess/kokoro.css"
+    }
+  },
+  {
+    "model": "quiz.font",
+    "pk": 5,
+    "fields":{
+      "name":"Nikukyu",
+      "source": "https://fonts.googleapis.com/earlyaccess/nikukyu.css"
+    }
+  },
+  {
+    "model": "quiz.font",
+    "pk": 6,
+    "fields": {
+      "name": "Nico Moji",
+      "source": "https://fonts.googleapis.com/earlyaccess/nicomoji.css"
+    }
+  },
+  {
+    "model": "quiz.font",
+    "pk": 7,
+    "fields": {
+      "name": "Sawarabi Gothic",
+      "source": "https://fonts.googleapis.com/earlyaccess/sawarabigothic.css"
+    }
+  },
+  {
+    "model": "quiz.font",
+    "pk": 8,
+    "fields": {
+      "name": "Sawarabi Mincho",
+      "source": "https://fonts.googleapis.com/earlyaccess/sawarabimincho.css"
+    }
+  }
+
+]

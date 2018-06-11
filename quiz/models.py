@@ -10,13 +10,14 @@ class Character(models.Model):
     value = models.CharField(max_length=50)
     writing_system = models.ForeignKey(WritingSystem, on_delete=models.CASCADE)
 
-class CharacterOccurrence(models.Model):
-    position = models.IntegerField()
-    character = models.ForeignKey(Character, on_delete=models.CASCADE)
-
 class Word(models.Model):
     english_translation = models.CharField(max_length=200)
     learned = models.BooleanField(default=False)
+
+class CharacterOccurrence(models.Model):
+    position = models.IntegerField()
+    character = models.ForeignKey(Character, on_delete=models.CASCADE)
+    word = models.ForeignKey(Word, on_delete=models.CASCADE)
 
 class Font(models.Model):
     name = models.CharField(max_length=50)

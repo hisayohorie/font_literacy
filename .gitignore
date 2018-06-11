@@ -107,3 +107,5 @@ font_literacy/settings_secret.py
 *.swp
 *.swn
 *.swo
+
+quiz/fixtures/words.json

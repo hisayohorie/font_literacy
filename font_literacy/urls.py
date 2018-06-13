@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from quiz.views import QuestionView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+url(r'^index/', QuestionView.as_view())
 ]
